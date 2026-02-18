@@ -10,6 +10,23 @@ body {
   line-height: 1.6;
 }
 
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero, section, footer {
+  animation: fadeUp 1s ease forwards;
+}
+
+/* Hero */
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -44,6 +61,12 @@ body {
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.4);
 }
 
 .btn-outline {
@@ -52,6 +75,7 @@ body {
   border: 2px solid #38bdf8;
 }
 
+/* Sections */
 section {
   padding: 50px 20px;
   max-width: 1000px;
@@ -60,44 +84,4 @@ section {
 
 h2 {
   color: #38bdf8;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.skills {
-  text-align: center;
-}
-
-.skills span {
-  display: inline-block;
-  background: #1e293b;
-  margin: 6px;
-  padding: 10px 14px;
-  border-radius: 6px;
-}
-
-.project {
-  background: #020617;
-  padding: 25px;
-  margin: 20px 0;
-  border-radius: 10px;
-}
-
-.project a {
-  color: #38bdf8;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#contact {
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #020617;
-  margin-top: 40px;
-  color: #9ca3af;
-}
-
+  margin-bottom: 2
