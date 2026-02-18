@@ -4,16 +4,30 @@
   <meta charset="UTF-8" />
   <title>Om Nere | DevOps Engineer</title>
   <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
 
-  <header>
+  <header class="hero">
     <h1>Om Nere</h1>
-    <p>Cloud & DevOps Engineer</p>
-    <p>I build automated, scalable and cloud-native systems 🚀</p>
+    <p class="subtitle">Cloud & DevOps Engineer</p>
+    <p class="tagline">I build automated, scalable and cloud-native systems 🚀</p>
+    <div class="buttons">
+      <a href="https://github.com/om-nere" target="_blank" class="btn">GitHub</a>
+      <a href="#projects" class="btn btn-outline">View Projects</a>
+    </div>
   </header>
 
-  <section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Cloud & DevOps enthusiast with hands-on experience in Docker, Jenkins, AWS, Kubernetes, and Terraform.
+      I love building CI/CD pipelines, automating infrastructure, and deploying scalable applications on cloud.
+      My goal is to work as a DevOps / Cloud Engineer and build reliable production systems.
+    </p>
+  </section>
+
+  <section id="skills">
     <h2>Skills</h2>
     <div class="skills">
       <span>Linux</span>
@@ -24,46 +38,48 @@
       <span>Kubernetes</span>
       <span>Terraform</span>
       <span>CI/CD</span>
+      <span>Nginx</span>
       <span>Monitoring</span>
     </div>
   </section>
 
-  <section>
+  <section id="projects">
     <h2>Projects</h2>
 
     <div class="project">
-      <h3>CI/CD Pipeline with Jenkins & Docker</h3>
-      <p>Built an automated CI/CD pipeline to build, test and deploy a Dockerized application using Jenkins.</p>
-      <p><b>Tools:</b> Jenkins, Docker, GitHub</p>
+      <h3>Two-Tier Application Deployment</h3>
+      <p>
+        Deployed a two-tier web application using Docker and automated the build and deployment using CI/CD pipeline.
+      </p>
+      <p><b>Tools:</b> Docker, Jenkins, GitHub</p>
+      <a href="https://github.com/om-nere/two-tier-app" target="_blank">View on GitHub →</a>
     </div>
 
     <div class="project">
-      <h3>AWS Infrastructure using Terraform</h3>
-      <p>Created AWS infrastructure (EC2, Security Groups, VPC) using Terraform as Infrastructure as Code.</p>
-      <p><b>Tools:</b> AWS, Terraform</p>
+      <h3>AWS Static Website Deployment</h3>
+      <p>
+        Hosted a static website on AWS and integrated it with GitHub for version control and deployment.
+      </p>
+      <p><b>Tools:</b> AWS, GitHub</p>
+      <a href="https://github.com/om-nere/aws-static-website-github" target="_blank">View on GitHub →</a>
     </div>
 
     <div class="project">
-      <h3>Kubernetes Deployment Project</h3>
-      <p>Deployed containerized application on Kubernetes with scaling and rolling updates.</p>
-      <p><b>Tools:</b> Docker, Kubernetes</p>
+      <h3>Cloud ATS Project</h3>
+      <p>
+        Built and deployed a cloud-based application with focus on automation and deployment workflow.
+      </p>
+      <p><b>Tools:</b> Cloud, Docker, CI/CD</p>
+      <a href="https://github.com/om-nere/cloud-ats" target="_blank">View on GitHub →</a>
     </div>
 
   </section>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I am a Cloud & DevOps enthusiast with hands-on experience in Docker, Jenkins, AWS, Kubernetes, and Terraform.
-      I love building automation pipelines and scalable cloud systems.
-    </p>
-  </section>
-
-  <section>
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: omnere123@gmail.com</p>
+    <p>Email: <b>omnere123@gmail.com</b></p>
     <p>GitHub: <a href="https://github.com/om-nere" target="_blank">github.com/om-nere</a></p>
-    <p>LinkedIn: (Add your LinkedIn here)</p>
+    <p>LinkedIn: <i>Add your LinkedIn link here</i></p>
   </section>
 
   <footer>
