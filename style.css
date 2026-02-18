@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
 }
 
-/* Animations */
+/* Animation */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -69,19 +69,4 @@ body {
   box-shadow: 0 10px 20px rgba(56, 189, 248, 0.4);
 }
 
-.btn-outline {
-  background: transparent;
-  color: #38bdf8;
-  border: 2px solid #38bdf8;
-}
-
-/* Sections */
-section {
-  padding: 50px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-h2 {
-  color: #38bdf8;
-  margin-bottom: 2
+.btn-
